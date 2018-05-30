@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+	height: 128px;
+	width: 1200px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+
+}
+.rav{
+	width: 676px;
+	height: 58px;
+	float: left;
+}
+.rav p{
+	font-size: 18px;
+	color: #0b4199;
+	float: left;
+	margin-left: 188px;
+	margin-top: 20px;
+}
+.nav{
+	width: 254px;
+	height: 22px; 
+	margin-left: 29px;
+	margin-top: 20px;
+	float:left;
+}
+.nav li{
+	float:left;
+	height: 22px;
+	padding:0 10px;
+	line-height: 22px;
+	font-size:14px ;
+
+}
+.nav #zhanghao{
+	color: #7d7d7d;
+	border-left: 1px solid #c5c5c5;
+} 
+.nav #zhongwen{
+	color: #7d7d7d;
+}
+.nav #language{
+	color:#f12c34;
+}
+.lav{
+	width: 900px;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.lav li{
+	float:left;
+	margin-right:30px; 
+	font-size: 16px;
+	width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.lav li:hover {
+    background: #2756a4;
+}
+#guanyuwomen{
+	margin-right: 0px;
+}
+.lav>li ul {
+    display: none; /*隐藏消失*/
+    font-size: 10px;  
+}
+.lav>li:hover ul {
+	display: block;         
+}
+.sousuo{
+	width: 240px;
+	height: 30px;
+	margin-top: 16px;
+	float: left;
+	background-color: #ebeaea;
+	color: #b9b9ba;
+}
+
+	
