@@ -1,0 +1,541 @@
+/*准备工作 */
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/* 清浮动 */
+.clear::after {
+
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+/*除去图片的3px间隙*/
+img {
+    /*display: block;*/
+    vertical-align: top;
+}
+
+/*header开始*/
+.header{
+	height: 128px;
+	width: 1200px;
+	margin:0 auto;
+}
+.logo{
+	float:left;
+
+}
+.rav{
+	width: 676px;
+	height: 58px;
+	float: left;
+}
+.rav p{
+	font-size: 18px;
+	color: #0b4199;
+	float: left;
+	margin-left: 188px;
+	margin-top: 20px;
+}
+.nav{
+	width: 254px;
+	height: 22px; 
+	margin-left: 29px;
+	margin-top: 20px;
+	float:left;
+}
+.nav li{
+	float:left;
+	height: 22px;
+	padding:0 10px;
+	line-height: 22px;
+	font-size:14px ;
+
+}
+.nav #zhanghao{
+	color: #7d7d7d;
+	border-left: 1px solid #c5c5c5;
+} 
+.nav #zhongwen{
+	color: #7d7d7d;
+}
+.nav #language{
+	color:#f12c34;
+}
+.lav{
+	width: 900px;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.lav li{
+	float:left;
+	margin-right:30px; 
+	font-size: 16px;
+	width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.lav li:hover {
+    background: #2756a4;
+}
+#guanyuwomen{
+	margin-right: 0px;
+}
+.lav>li ul {
+    display: none; /*隐藏消失*/
+    font-size: 10px;  
+}
+.lav>li:hover ul {
+	display: block;         
+}
+.sousuo{
+	width: 240px;
+	height: 30px;
+	margin-top: 16px;
+	float: left;
+	background-color: #ebeaea;
+	color: #b9b9ba;
+}
+/*header结束*/
+
+
+
+/*结尾部分*/
+/*结尾部分*/
+/*结尾部分*/
+/*论坛开始*/
+.lansebeijing{
+	height: 75px;
+	background-color: #0b4199;
+}
+.luntan{
+	width: 1200px;
+	height: 75px;
+	margin:0 auto;
+}
+.luntan img{
+	float: left;
+	margin-top: 19px;
+}
+.luntan p{
+	margin-top: 0px;
+	float: left;
+	margin-top: 26px;
+	color: #ffffff;
+}
+.luntan .footer{
+	margin-left: 157px;
+}
+.luntan .lianjie{
+	float: right;
+}
+/*论坛结束*/
+/*导航开始*/
+.heisebeijing{
+	height: 320px;
+	background-color: #454545;
+}
+.daohang{
+	width: 1200px;
+	height: 291px;
+	margin:0 auto;
+}
+.daohang>ul{
+	width: 157px;
+	float: left;
+	margin-top: 83px;
+}
+.daohang .guanyu{
+	margin-left: 15px;
+}
+.daohang li{
+	color: #dbdbdb;
+}
+.daohang .jiange{
+	margin-top: 29px;
+}
+.daohang .gongsi{
+	width: 332px;
+	height: 183px;
+	float: left;
+	margin-top: 55px;
+	border-left: 1px solid #525252;
+	padding-left: 15px;
+}
+.daohang .gongsi img{
+	display: block;
+}
+.daohang .gongsi p{
+	color: #dbdbdb;
+}
+.daohang .gongsi .zuo{
+	margin-top: 30px;
+	float: left;
+}
+.daohang .gongsi .zuo li{
+	color: #dbdbdb;
+	margin-bottom: 20px;
+}
+.daohang .gongsi .you{
+	margin-top: 31px;
+	float: left;
+	margin-left: 
+}
+.daohang .gongsi .you li{
+	color: #dbdbdb;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+/*导航结束*/
+/*编号开始*/
+.bianhao{
+	height: 29px;
+	width: 1200px;
+	margin:0 auto;
+}
+.bianhao li{
+	float: left;
+}
+.bianhao li{
+	font-size: 12px;
+	color:#b5b5b5;
+}
+.bianhao .wangzhi{
+	font-size: 11px;
+	margin-left: 44px;
+	margin-top: 1px;
+	color:#b5b5b5;
+}
+.bianhao .gongsi2{
+	margin-left: 13px;
+}
+.bianhao .xukezheng{
+	margin-left: 261px;
+}
+.bianhao .falvshuoming{
+	margin-left: 76px;
+	padding-right: 5px;
+	border-right: 1px solid #b5b5b5;
+}
+.bianhao .wangzhanditu{
+	margin-left: 8px;
+}
+
+
+
+/* 05新闻中心 */
+/* 05新闻中心 */
+/* 05新闻中心 */
+
+/* 头部 */
+.mid{
+	width: 1200px;
+	background-color: rgb(249, 249, 249);
+	margin:0 auto;
+}
+.upside{
+	height: 174px;
+	border-bottom: 2px dotted grey;
+	padding-top: 20px;
+	padding-bottom: 21px;
+}
+.upside_word_1{
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+.upside_word_1>a:link{
+	font-size: 14px;
+	color: rgb(39, 86, 164);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+.upside_word_2{
+	margin-top: 67px;
+	font-size: 24px;
+	font-family: Microsoft YaHei;
+}
+.upside_word_3{
+	margin-top: 16px;
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+
+/* 新闻中心 */
+
+.box{
+	margin-top: 31px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 560px;
+	background-color: white;
+}
+.p_set{
+	height: 16px;
+}
+.p_l{
+	display: inline-block;
+	float: left;
+}
+.p_r{
+	display: inline-block;
+	float: right;
+}
+.q_set{
+	padding-top: 20px;
+}
+.q_l{
+	display: inline-block;
+	height: 236px;
+	width: 419px;
+	float: left;
+}
+.q_r{
+	display: inline-block;
+	width: 715px;
+	height: 236px;
+	float: right;
+	padding-top: 30px;
+}
+.q_r h2{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	float: left;
+}
+.q_r_1{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	color: rgb(135, 135, 135);
+	padding-top: 8px;
+	float: right;
+}
+.q_r_2{
+	margin-top: 36px;
+	text-indent: 2em;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(67, 67, 67);
+	float: left;
+}
+.q_r>a{
+	color: rgb(237, 28, 36);
+	margin-top: 26px;
+	font-size: 14px;
+	float: right;
+}
+.r_set>li{
+	line-height: 47px;
+}
+
+
+/* 新闻中心_市场动态 */
+
+._news_box{
+	background-color: white;
+	padding-top: 37px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+._news_p_set{
+	margin-bottom: 37px;
+}
+._news_p_img{
+	display: inline-block;
+}
+._news_p_r{
+	display: inline-block;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	width: 850px;
+	height: 158px;
+	float: right;
+}
+._news_p_r>h2{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: normal;
+	float: left;
+}
+._news_p_r_1{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	color: rgb(135, 135, 135);
+	padding-top: 8px;
+	float: right;
+}
+._news_p_r_2{
+	display: inline-block;
+	margin-top: 38px;
+	line-height: 24px;
+	margin-top: 36px;
+	text-indent: 2em;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(67, 67, 67);
+}
+._news_p_r_3{
+	display: inline-block;
+	line-height: 24px;
+	margin-top: 36px;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(67, 67, 67);
+}
+._news_p_r_2_{
+	margin-top: 38px;
+	line-height: 24px;
+	margin-top: 36px;
+	font-size: 16px;
+	font-weight: normal;
+	color: rgb(67, 67, 67);
+}
+._news_p_r a{
+	display: inline-block;
+	line-height: 24px;
+	float: right;
+}
+
+/*  下部导航（1234） */
+
+._direct_bottom_box{
+	height: 94px;
+	padding-top: 14px;
+	text-align: center;
+}
+._direct_bottom_body{
+	margin: 0 auto;
+}
+._direct_bottom_body>a{
+	display: inline-block;
+	margin-right: 4px;
+}
+._direct_bottom_body_1234{
+	border: 1px solid rgb(181, 181, 181);
+	width: 18px;
+	text-align: center;
+}
+#_direct_bottom_body_1234_2{
+	color: rgb(255, 6, 41);
+	text-align: center;
+	border: none;
+}
+#_direct_bottom_body_last{
+	margin-right: 36px;
+}
+._direct_bottom_body form{
+	display: inline-block;
+	color: rgb(11, 65, 153);
+}
+#_l{
+	width: 30px;
+}
+
+/* 新闻中心_新闻在线 */
+
+._releases{
+	background-color: white;
+	padding-top: 37px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 74px;
+}
+._releases_h1{
+	font-size: 24px;
+	color: rgb(51, 51, 51);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+	text-align: center;
+}
+._releases_subhead{
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 2px dotted grey;
+	position: relative;
+}
+._releases_subhead>div{
+	/* display: inline-block; */
+	text-align: center;
+}
+._releases_subhead_l{
+	margin-right: 152px;
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+._releases_subhead_r{
+	font-size: 12px;
+	color: rgb(153, 153, 153);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+._releases_subhead>div>p{
+	display: inline-block;
+}
+._releases_subhead img{
+	position: absolute;
+	left: 1324px;
+	bottom: 5px;
+}
+
+._releases_p1{
+	margin-top: 45px;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 2em;
+	color: rgb(67, 67, 67);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+._releases_img{
+	display: block;
+	text-align: center;
+	margin-top: 46px;
+}
+._releases_img>p{
+	margin-top: 9px;
+	font-size: 14px;
+}
+._releases_p2{
+	margin-top: 40px;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 2em;
+	color: rgb(67, 67, 67);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
+._releases_a{
+	margin-top: 100px;
+	margin-bottom: 44px;
+}
+._releases_a>a{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: rgb(39, 86, 164);
+	font-weight: normal;
+	font-family: Microsoft YaHei;
+}
