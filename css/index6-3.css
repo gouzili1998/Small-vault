@@ -2,7 +2,7 @@
 * @Author: Hasee
 * @Date:   2018-05-31 23:53:08
 * @Last Modified by:   Hasee
-* @Last Modified time: 2018-06-01 10:56:28
+* @Last Modified time: 2018-06-11 21:37:44
 */
 *{
 	padding: 0;
@@ -86,16 +86,25 @@ a{
     display: none; /*隐藏消失*/
     font-size: 10px;  
 }
+.lav>li ul li{
+	background-color: #ffffff;
+}
 .lav>li:hover ul {
 	display: block;         
 }
+.lav a{
+	color:#333333;
+}
 .sousuo{
-	width: 240px;
+	width: 188px;
 	height: 30px;
 	margin-top: 16px;
 	float: left;
 	background-color: #ebeaea;
 	color: #b9b9ba;
+}
+.header #sousuo{
+	margin-top: 20px;
 }
 /* header结束 */
 /* 中间开始 */
