@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-05-30 12:00:59
 * @Last Modified by:   dell
-* @Last Modified time: 2018-06-11 17:56:30
+* @Last Modified time: 2018-06-11 19:51:33
 */
 *{
 	padding: 0;
@@ -133,7 +133,7 @@ a{
 }
 .f{
 	display: inline-block;
-    background-image: url('../images/1.png') ;
+    background-image: url('../images/02-1/1.png') ;
     height: 30px;
 	width: 310px;
 	border: 0;
@@ -141,7 +141,7 @@ a{
 .g{
 	margin-top: 11px;
 	height: 50px;
-	background-image: url('../images/2.png');
+	background-image: url('../images/02-1/2.png');
 }
 .g>ul li{
 	float: left;
