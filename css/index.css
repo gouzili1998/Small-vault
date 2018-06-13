@@ -26,10 +26,11 @@ a{
 .youdaohang .gezi img{
 	margin-top: 8px;
 }
-.youdaohang .gezi p{
+
+.youdaohang .gezi a{
 	color:#ffffff;
 }
-.youdaohang .daoergezi{
+.youdaohang .gezi:hover{
 	background-color: #8d8d8d;
 }
 .youdaohang .mogezi{
@@ -185,7 +186,7 @@ a{
 	background-color: #34caef;
 	border-radius: 3px;
 }
-.neirong.liaojiegengduo p{
+.neirong .liaojiegengduo p{
 	font-size: 13.5px;
 	color: #ffffff;
 	line-height: 25px;
