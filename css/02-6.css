@@ -1,8 +1,8 @@
 /*
 * @Author: Hasee
 * @Date:   2018-06-03 16:21:49
-* @Last Modified by:   Hasee
-* @Last Modified time: 2018-06-04 19:38:48
+* @Last Modified by:   dell
+* @Last Modified time: 2018-06-13 11:33:35
 */
 *{
 	padding: 0;
@@ -86,18 +86,28 @@ a{
     display: none; /*隐藏消失*/
     font-size: 10px;  
 }
+.lav>li ul li{
+	background-color: #ffffff;
+}
 .lav>li:hover ul {
 	display: block;         
 }
+.lav a{
+	color:#333333;
+}
 .sousuo{
-	width: 240px;
+	width: 188px;
 	height: 30px;
 	margin-top: 16px;
 	float: left;
 	background-color: #ebeaea;
 	color: #b9b9ba;
 }
-/* header结束 */
+.header #sousuo{
+	margin-top: 20px;
+}
+/*header结束*/
+
 /* banner开始 */
 .banner{
 	height: 1250px;
@@ -143,7 +153,6 @@ a{
 	height: 125px;
 	width: 1200px;
 	margin-top: 49px;
-	padding-left: 160px;
 }
 .page .title{
 	height: 42px;
@@ -166,7 +175,6 @@ a{
 	background-color: white;
 	float: left;
 	margin-right: 16px; 
-	margin-left: 160px;
 }
 .he2{
 	width: 294px;
@@ -174,13 +182,10 @@ a{
 	background-color: white;
 	float: left;
 	margin-right: 16px; 
-	/* margin-left: 160px; */
-
 }
 .qian{
 	width: 294px;
 	height: 22px;
-	/* padding-left: 103px; */
 }
 .first{
 	width: 263px;
@@ -206,6 +211,10 @@ a{
 	font-family: '微软雅黑';
 	font-size: 14px;
 	color: #2756a4;
+}
+.z{
+	width: 1200px;
+	margin: 0 auto;
 }
 /* banner结束 */
 /* 右侧悬浮框开始 */
