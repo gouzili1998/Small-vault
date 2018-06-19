@@ -2,7 +2,7 @@
 * @Author: Hasee
 * @Date:   2018-05-31 23:53:08
 * @Last Modified by:   Hasee
-* @Last Modified time: 2018-06-11 21:37:44
+* @Last Modified time: 2018-06-19 20:04:21
 */
 *{
 	padding: 0;
@@ -108,6 +108,10 @@ a{
 }
 /* header结束 */
 /* 中间开始 */
+.juzhong{
+	margin: 0 auto;
+	width: 1200px;
+}
 .banner{
 	height: 1270px;
 	margin: 0 auto;
@@ -140,15 +144,15 @@ a{
 	width: 542px;
 	height: 329px;
 	padding-top: 13px;
-	padding-right: 215px; 
+	/* padding-right: 215px;  */
 	float: right;
 }
 .list{
 	width: 600px;
 	height: 25px;
 	line-height: 25px;
-	padding-left: 18px;
-	margin-left: 160px;
+	/* padding-left: 18px; */
+	/* margin-left: 160px; */
 	margin-top: 25px;
 	border-radius: 5px;
 	background: url('../images/ss_03.png') no-repeat center right;
@@ -164,8 +168,8 @@ a{
 	width: 600px;
 	height: 25px;
 	line-height: 25px;
-	padding-left: 18px;
-	margin-left: 160px;
+	/* padding-left: 18px; */
+	/* margin-left: 160px; */
 	margin-top: 5px;
 	border-radius: 5px;
 	background: url('../images/sss_06.png') no-repeat center right;
@@ -238,21 +242,48 @@ a{
 	padding-bottom: 0px;
 }
 /* 中间结束 */
-/* 右侧悬浮框开始 */
-.right{
-	width: 90px;
-	height: 315px;
+/*右导航开始*/
+.youdaohang{
+	width: 84px;
+	height: 332px;
 	position: fixed;
-	right: 25px;
-	top: 290px;
+	top: 132px;
+	right: 1px;
 }
-.fl{
-	background-color: gray;
-	height: 60px;
-	padding-top: 20px;
-	width: 80px;
+.youdaohang .gezi{
+	width: 84px;
+	height: 83px;
+	background-color: #b0b0b0;
+	border-bottom: 1px dotted #ffffff;
 	text-align: center;
 }
+.youdaohang .gezi img{
+	margin-top: 8px;
+}
+.youdaohang .gezi p{
+	color:#ffffff;
+}
+.youdaohang .daoergezi{
+	background-color: #8d8d8d;
+}
+.youdaohang .mogezi{
+	border-bottom: none;
+}
+.youdaohang .mogezi img{
+	margin-top: 24px;
+}
+.youdaohang .mogezi .shensexiaoge{
+	width: 84px;
+	height: 22px;
+	margin-top: 16px;
+	background-color: #a4a4a4;
+}
+.youdaohang .mogezi .shensexiaoge p{
+	font-size: 13px;
+	line-height: 22px;
+	color: #818181;
+}
+/*右导航结束*/
 /* 结尾部分 */
 .lansebeijing{
 	height: 75px;

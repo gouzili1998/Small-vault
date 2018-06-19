@@ -1,3 +1,9 @@
+/*
+* @Author: Hasee
+* @Date:   2018-06-10 12:05:51
+* @Last Modified by:   Hasee
+* @Last Modified time: 2018-06-19 20:17:31
+*/
 *{
 	padding: 0;
 	margin: 0;
@@ -8,48 +14,7 @@ ul,li,ol{
 a{
 	text-decoration: none;
 }
-/*右导航开始*/
-.youdaohang{
-	width: 84px;
-	height: 332px;
-	position: fixed;
-	top: 132px;
-	right: 1px;
-}
-.youdaohang .gezi{
-	width: 84px;
-	height: 83px;
-	background-color: #b0b0b0;
-	border-bottom: 1px dotted #ffffff;
-	text-align: center;
-}
-.youdaohang .gezi img{
-	margin-top: 8px;
-}
-.youdaohang .gezi p{
-	color:#ffffff;
-}
-.youdaohang .daoergezi{
-	background-color: #8d8d8d;
-}
-.youdaohang .mogezi{
-	border-bottom: none;
-}
-.youdaohang .mogezi img{
-	margin-top: 24px;
-}
-.youdaohang .mogezi .shensexiaoge{
-	width: 84px;
-	height: 22px;
-	margin-top: 16px;
-	background-color: #a4a4a4;
-}
-.youdaohang .mogezi .shensexiaoge p{
-	font-size: 13px;
-	line-height: 22px;
-	color: #818181;
-}
-/*右导航结束*/
+/*header开始*/
 /*header开始*/
 .header{
 	height: 128px;
@@ -143,114 +108,124 @@ a{
 	margin-top: 20px;
 }
 /* header结束 */
-/* banner开始 */
+/* 中间开始 */
 .banner{
-	height: 2350px;
 	background-color: rgb(249, 249, 249);
-	margin: 0 auto;
-}
-.lian{
-	width: 1200px;
-	height: 100px;
-	margin: 0 auto;
-}
-.lianzi{
-	padding-top: 20px;
-
-}
-.fazhan{
-	width: 1200px;
-	height: 55px;
-	margin: 0 auto;
-	line-height: 30px;
-}
-.fazhan .ch{
 	font-family: '微软雅黑';
+}
+.shouye{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.shouye{
+	font-size: 14px;
+	color: #999999;
+}
+.word{
+	width: 1200px;
+	height: 63px;
+	margin: 0 auto;
+	background: url('../images/longline.png') no-repeat bottom center;
+}
+.word .ch{
 	font-size: 24px;
 	color: #3e3e3e;
 }
-.fazhan .en{
-	font-family: '微软雅黑';
+.word .en{
 	font-size: 14px;
 	color: #666666;
 }
-.longline{
+.page{
+	height: 960px;
 	width: 1200px;
-	height: 2px;
-	margin: 0 auto;
+	margin: 32px auto;
+	/* padding-top: 32px; */
+	background-color: white;
 }
-.bei{
-	width: 1200px;
-	height: 640px;
-	margin: 0 auto;
-}
-.beizi{
+.page .pa{
+	width: 1160px;
+	height: 185px;
+	margin: 20px auto;
 	padding-top: 30px;
+	/* background-color: red; */
 }
-.fazhan_2{
-	width: 1200px;
-	height: 45px;
-	margin: 0 auto;
-}
-.fazhan_3{
-	width: 1200px;
-	height: 93px;
-	line-height: 28px;
-	font-size: 16px;
-	/* padding-left: 157px; */
-	font-family: '微软雅黑';
-	color: #4b4b4b;
-	margin: 0 auto;
-}
-.banner2{
-	height: 1340px;
-	width: 1248px;
-	margin: 0 auto;
-}
-.banner2_1{
-	width: 415px;
-	height: 610px;
-	/* margin-right: 45px; */
-	border-right: 1px solid rgb(204,204,204);
-	float: left;
-
-}
-.banner2_2{
-	width: 415px;
-	height: 610px;
-	margin-top: 50px;
-	border-right: 1px solid rgb(204,204,204);
+.left{
+	width: 330px;
+	height: 185px;
 	float: left;
 }
-
-.tu{
-	width: 360px;
-	height: 260px;
-	margin-left: 28px;
+.right{
+	width: 795px;
+	margin-left: 35px;
+	float: left;
+	/* line-height: 70px; */
 }
 .title{
-	width: 360px;
-	height: 33px;
-	margin-top: 31px;
-	font-size: 22px;
-	font-family: '微软雅黑';
-	color: #4b4b4b;
-	margin-left: 28px;
-}
-.page{
-	width: 360px;
-	height: 255px;
-	margin-top: 30px;
 	font-size: 16px;
-	font-family: '微软雅黑';
-	color: #4b4b4b;
-	text-indent: 2em;
-	text-align:justify;
-	line-height: 25px;
-	margin-left: 28px;
+	color: #333333;
+	font-weight: bold;
+	margin-bottom: 30px;
 }
-/* banner结束 */
-
+.duan{
+	font-size: 16px;
+	color: #333333;
+	line-height: 27px;
+}
+.jump{
+	width: 1200px;
+	height: 208px;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+.blue{
+	color: rgb(67, 98, 167);
+}
+/* 中间结束 */
+/*右导航开始*/
+.youdaohang{
+	width: 84px;
+	height: 332px;
+	position: fixed;
+	top: 132px;
+	right: 1px;
+}
+.youdaohang .gezi{
+	width: 84px;
+	height: 83px;
+	background-color: #b0b0b0;
+	border-bottom: 1px dotted #ffffff;
+	text-align: center;
+}
+.youdaohang .gezi img{
+	margin-top: 8px;
+}
+.youdaohang .gezi p{
+	color:#ffffff;
+}
+.youdaohang .daoergezi{
+	background-color: #8d8d8d;
+}
+.youdaohang .mogezi{
+	border-bottom: none;
+}
+.youdaohang .mogezi img{
+	margin-top: 24px;
+}
+.youdaohang .mogezi .shensexiaoge{
+	width: 84px;
+	height: 22px;
+	margin-top: 16px;
+	background-color: #a4a4a4;
+}
+.youdaohang .mogezi .shensexiaoge p{
+	font-size: 13px;
+	line-height: 22px;
+	color: #818181;
+}
+/*右导航结束*/
 /* 结尾部分 */
 .lansebeijing{
 	height: 75px;
@@ -368,8 +343,3 @@ a{
 .bianhao .wangzhanditu{
 	margin-left: 8px;
 }
-
-
-
-
-	
