@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-05-30 12:00:59
 * @Last Modified by:   dell
-* @Last Modified time: 2018-06-13 12:03:46
+* @Last Modified time: 2018-06-20 20:27:28
 */
 *{
 	padding: 0;
@@ -361,19 +361,32 @@ a{
 	top: 2px;
 }
  /* 浏览器右面悬浮框 */
- .right{
-	width: 90px;
-	height: 315px;
+.fl img{
+	margin-top: 11px;
+	height: 42px;
+	width: 48px;
+}
+.fl p{
+	font-size: 14px;
+	color: #ffffff;
+	/* padding-bottom: 11px; */
+}
+.fl{
+	background-color: rgb(176, 176, 176);
+	width: 84px;
 	position: fixed;
 	right: 25px;
 	top: 290px;
 }
-.fl{
-	background-color: gray;
-	height: 60px;
-	padding-top: 20px;
-	width: 80px;
+.fl1{
+	width: 84px;
+	height: 90px;
+	/* line-height: 83px;  */
 	text-align: center;
+			
+}
+.fl1:hover{
+	background-color: rgb(141, 141, 141);
 }
 /* 结尾开始 */
 .lansebeijing{

@@ -1,8 +1,8 @@
 /*
 * @Author: dell
-* @Date:   2018-06-13 11:40:59
+* @Date:   2018-06-17 11:05:59
 * @Last Modified by:   dell
-* @Last Modified time: 2018-06-20 20:28:41
+* @Last Modified time: 2018-06-20 20:31:47
 */
 *{
 	padding: 0;
@@ -101,19 +101,19 @@ a{
 .lav a{
 	color:#333333;
 }
-.header #sousuo{
-	margin-top: 20px;
-}
 .sousuo{
 	margin-top: 16px;
 	float: left;
 	display: inline-block;
-    background-image: url('../images/02-2/sousuo.png') ;
+    background-image: url('../images/02-4/sousuo.png') ;
     height: 39px;
 	width: 254px;
 	border: 0;
 	font-size: 15px;
 	color: #5c5f61;
+}
+.header #sousuo{
+	margin-top: 20px;
 }
 /*header结束*/
 
@@ -121,14 +121,14 @@ a{
 
 .a{
 	background-color: #f9f9f9;  
-	height: 2083px;
+	height: 1683px;
 }
 .z{
 	background-color: #f9f9f9;
 }
 .b{
 	background-color: #ffffff;
-	height: 2000px;
+	height: 1600px;
 	width: 1200px;
 	margin: 0 auto;
 }
@@ -150,34 +150,29 @@ a{
 }
 .f{
 	display: inline-block;
-    background-image: url('../images/02-2/1.png') ;
-    height: 30px;
-	width: 310px;
+    background-image: url('../images/02-4/1.png') ;
+    height: 37px;
+	width: 681px;
 	border: 0;
-}
-.g{
-	margin-top: 11px;
-	height: 50px;
-	background-image: url('../images/02-2/2.png');
-}
-.g>ul li{
-	float: left;
-	line-height: 16px;
-	margin-top: 17px;
-}
-.g #a{
-	margin-left: 160px;
-}
-.g #b{
-	margin-left: 290px;
-}
-.g #c{
-	margin-left: 300px;
-}
-.g>ul li a{
 	font-size: 16px;
-	color: #ffffff;
-	font-family: Microsoft Yahei;
+	color: #818181;
+	margin-left: 34px;
+}
+.dasousuo{
+	height: 97px;
+	text-align: center;
+	background-color: #f0f0f0;
+}
+.biaotou{
+	height: 110px;
+	width: 800px;
+	text-align: center;
+	padding-left: 400px;
+}
+.biaotou p{
+	padding-top: 50px;
+	color: #2756a4;
+	font-size: 20px;
 }
 .h{
 	margin-left: 13px;
@@ -186,12 +181,6 @@ a{
 	height: 34px;
 	background-color: #dcf3ff;
 }
-.h>p{
-	font-size: 20px;
-	color: #3e3e3e;
-	padding-left: 22px;
-	padding-top: 3px;
-}
 .i{
 	margin-left: 40px;
 	margin-top: 28px;
@@ -199,26 +188,49 @@ a{
 .i li{
 	font-size: 16px;
 	color: #0b4199;
-	margin-top: 16px;
 }
-.i #d{
-	color: #ed1c24;
+.i .da{
+	margin-top: 21px;
+	font-weight: bold;
+}
+.i .xiao{
+	margin-top: 16px;
 }
 .j{
 	float: left;
-	width: 400px;
+	width: 328px;
 }
 .k{
 	float: left;
-	width: 800px;
-}
-.k>ul>li{
-	width: 782px;
-	height: 160px;
+	width: 850px;
+	border-left: 1px solid #d0d2d1;
 	border-bottom: 1px solid #d0d2d1;
 }
-#g{
+.k ul{
+	padding-left: 72px;
+}
+.k>ul>li{
+	width: 740px;
+	border-bottom: 1px solid #d0d2d1;
+}
+#we{
 	border: 0;
+	height: 150px;
+}
+.diyi{
+	height: 250px;
+}
+.dier{
+	height: 140px;
+}
+.disan{
+	height: 243px;
+}
+.disi{
+	height: 150px;
+}
+.diwu{
+	height: 180px;
 }
 .k #e{
 	margin-top: 30px;
@@ -238,6 +250,80 @@ a{
 	color: #0b4199;
 	margin-top: 13px;
 }
+.fist{
+	padding-top: 55px;
+	font-size: 20px;
+	color: #3e3e3e;
+}
+.one{
+	margin-top: 26px;
+}
+.bi{
+	width: 198px;
+	height: 113px;
+	float: left;
+}
+.fourth{
+	margin-left: 12px;
+	float: left;
+	width: 520px;
+}
+.two{
+	font-size: 20px;
+	color: #3e3e3e;
+	
+}
+.second{
+	padding-top: 33px;
+}
+.three{
+	width: 105px;
+	height: 30px;
+	background-color: #0b4199;
+	float: left;
+	text-align: center;
+	margin-right: 12px;
+}
+.three p{
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 30px;
+}
+.third{
+	width: 200px;
+	margin-top: 10px;
+}
+.four{
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #777777;
+	width: 43px;
+	border-right: 1px solid #e2e2e2;
+	float: left;
+	margin-right: 20px;
+}
+.five{
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #777777;
+	float: left;
+	margin-right: 20px;
+}
+.six{
+	font-size: 20px;
+	color: #3e3e3e;
+	font-size: 13px;
+}
+.fifth{
+	padding-top: 10px;
+}
+.sixth{
+	padding-top: 32px;
+	font-size: 20px;
+	color: #3e3e3e;
+}
 .shouce{
 	width: 121px;
 	height: 16px;
@@ -253,7 +339,7 @@ a{
 	line-height: 16px;
 }
 .liulan{
-	margin-left: 170px;
+	margin-left: 99px;
 	line-height: 16px;
 }
 .xiazai{
@@ -284,7 +370,7 @@ a{
 }
 .yangjing{
 	position: absolute;
-	right: 220px;
+	right: 250px;
 	top: 12px;
 }
 .tubiao{
@@ -292,6 +378,15 @@ a{
 	right: 42px;
 	top: 13px;
 }
+/* .xiazai{
+	margin-top: 30px;
+	line-height: 16px;
+	float: right;
+} */
+.hezi p{
+	float: left;
+}
+
 /* 尾部页数列表 */
 .yeshu{
 	width: 600px;
