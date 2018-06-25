@@ -26,10 +26,11 @@ a{
 .youdaohang .gezi img{
 	margin-top: 8px;
 }
-.youdaohang .gezi p{
+
+.youdaohang .gezi a{
 	color:#ffffff;
 }
-.youdaohang .daoergezi{
+.youdaohang .gezi:hover{
 	background-color: #8d8d8d;
 }
 .youdaohang .mogezi{
@@ -147,13 +148,14 @@ a{
 .xiangqing{
 	height: 2375px;
 	width: 1600px;
+	background-color: #f9f9f9;
 	margin:0 auto;
 }
 .gaishu{
 	width: 1200px;
 	height: 800px;
 	margin-left: 200px;
-	float: left;
+
 }
 .da2{
 	width: 1600px;
@@ -254,6 +256,7 @@ a{
 	width: 1200px;
 	margin:0 auto;
 	margin-top: 5px;
+	background-color: #ffffff;
 }
 .te{
 	font-size: 22px;
@@ -265,7 +268,7 @@ a{
 .tedian{
 	height: 50px;
 	padding-left: 30px;
-	text-align: center;
+	background-color: #ffffff;
 }
 .tedian li{
 	font-size: 16px;
@@ -276,6 +279,9 @@ a{
 };
 .li1{
 	padding-left: 0;
+}
+.li2{
+	padding-left: 43px;
 }
 .fanwei{
 	font-size: 16px;
@@ -297,22 +303,24 @@ a{
 .dianxing{
 	height: 332px;
 	width: 1200px;
+	background-color: #ffffff;
 	margin:0 auto;
 }
 .yingyong{
 	height: 170px;
 	padding-left: 30px;
 	padding-top: 30px;
-	text-align: center;
 }
 .zhankai1{
 	width: 1200px;
 	height: 30px;
+	background-color: #ffffff;
 	margin-top: 44px;
 }
 .chanpin{
 	width: 1200px;
 	height: 730px;
+	background-color: #ffffff;
 	margin:0 auto;
 }
 .xiang{
@@ -324,6 +332,7 @@ a{
 .sanchan{
 	width: 1200px;
 	height: 300px;
+	background-color: #ffffff;
 	margin:0 auto;
 }
 .chan1{
@@ -408,6 +417,7 @@ a{
 .tongyongjichupingtai{
 	width: 1600px;
 	height: 1220px;
+	background-color: #f9f9f9;
 	margin: 0 auto;
 }
 .da1{
@@ -418,8 +428,9 @@ a{
 .zhuti{
 	width: 1200px;
 	height: 591px;
+	background-color: #ffffff;
 	margin-left: 200px;
-	float: left;
+
 }
 .daohangc{
 	padding-top: 19px;
@@ -445,11 +456,13 @@ a{
 .tu{
 	width: 1200px;
 	height: 201px;
+	background-color: #ffffff;
 	margin-top: 63px;
 }
 .ceshi{
 	width: 1200px;
 	height: 157px;
+	background-color: #ffffff;
 	margin-top: 50px;
 }
 .zhongyi{
@@ -468,6 +481,7 @@ a{
 .xilie{
 	width: 1200px;
 	height: 600px;
+	background-color: #ffffff;
 	margin:0 auto;
 }
 .zuo1{
@@ -545,6 +559,7 @@ a{
 .jiejuefangan{
 	width: 1600px;
 	height: 1220px;
+	background-color: #f9f9f9;
 	margin: 0 auto;
 }
 .daohangb{
@@ -571,6 +586,7 @@ a{
 .jiance{
 	width: 1200px;
 	height: 157px;
+	background-color: #ffffff;
 	margin-top: 50px;
 }
 .zhongyi{
@@ -589,6 +605,7 @@ a{
 .xilie{
 	width: 1200px;
 	height: 600px;
+	background-color: #ffffff;
 	margin:0 auto;
 }
 .zuo4{
