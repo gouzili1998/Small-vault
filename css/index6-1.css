@@ -126,7 +126,9 @@ a{
 	background-color: #ffffff;
 }
 .lav>li:hover ul {
-	display: block;         
+	display: block; 
+	position: absolute;
+	z-index: 10         
 }
 .lav a{
 	color:#333333;

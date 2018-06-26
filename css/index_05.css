@@ -99,7 +99,9 @@ img {
     font-size: 10px;  
 }
 .lav>li:hover ul {
-	display: block;         
+	display: block;  
+	position: absolute;
+	z-index: 10        
 }
 .sousuo{
 	width: 240px;
