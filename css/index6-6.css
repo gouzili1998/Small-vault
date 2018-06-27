@@ -121,15 +121,16 @@ a{
 }
 .lav>li ul {
     display: none; /*隐藏消失*/
-    font-size: 10px;  
+    font-size: 10px;
+   
+
 }
 .lav>li ul li{
 	background-color: #ffffff;
 }
 .lav>li:hover ul {
 	display: block; 
-	position: absolute;
-	z-index: 10 
+
 	    
 }
 .lav a{
@@ -187,6 +188,8 @@ a{
 .neirong .you{
 	float: right;
 	margin-right: 11px;
+	position: relative;
+	z-index: 1;
 }
 .neirong .rongyu06{
 	margin-bottom: 2px;
